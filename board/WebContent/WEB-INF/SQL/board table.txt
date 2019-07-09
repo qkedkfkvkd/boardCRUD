@@ -1,0 +1,9 @@
+CREATE TABLE `board` (
+    `board_no` INT(10) NOT NULL AUTO_INCREMENT,
+    `board_pw` VARCHAR(50) NOT NULL,
+    `board_title` VARCHAR(200) NOT NULL,
+    `board_content` TEXT NOT NULL,
+    `board_user` VARCHAR(50) NOT NULL,
+    `board_date` DATE NOT NULL,
+    PRIMARY KEY (`board_no`)
+)
